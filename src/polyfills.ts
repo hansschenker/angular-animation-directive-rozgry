@@ -1,0 +1,5 @@
+import 'core-js/es6/reflect';
+import 'core-js/es7/reflect';
+import 'hammerjs';
+import 'web-animations-js';
+import 'zone.js/dist/zone';

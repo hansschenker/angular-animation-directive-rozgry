@@ -1,0 +1,12 @@
+<div class="ball" [animeFadeInOut]="show"></div>
+<div>
+  <button (click)="show = true">Show</button>
+  <button (click)="show = false">Hide</button>
+  <p [animeFadeInOut]="true">This paragraph should fade in!</p>
+  <div [animeFadeInOut]="true">This paragraph should fade in!</div>
+  <ul [animeFadeInOut]="true">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+</div>
